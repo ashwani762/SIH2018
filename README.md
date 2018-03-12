@@ -4,12 +4,12 @@ A repo for the Smart India Hackathon 2018 to be held on 30 - 31 March '18
 
 ## Breakup
 
-** The Project consists of two parts: **
+**The Project consists of two parts:**
 
 * Backend (The server)
 * Frontend (Android app)
 
-** The Repo consists of two branches **
+**The Repo consists of two branches:**
  
 * Master Branch
 * Develop Branch
