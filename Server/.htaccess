@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^greet/([^/]+)/([^/]+)/?$ index.php?n=$1&k=$2
