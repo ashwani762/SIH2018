@@ -26,13 +26,15 @@
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+	//Router::connect('/announce', array('controller' => 'notifications', 'action' => 'add'));
 
-	Router::connect('/hello', array('controller' => 'hello', 'action' => 'display'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
+	Router::mapResources('notifications');
+	Router::parseExtensions();
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.
